@@ -8,6 +8,8 @@ services:
     ports:
       - "8080:80"
       - "8443:443"
+      - "7001:7001"
+      - "7011:7011"
     depends_on:
       - php
     networks:
